@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background: rgb(249, 249, 209);
+    background-image: url(image/img.jpeg);
+    background-size: 100% 100%;
+}
+.scoreCard{
+    background:  #aff9a7;
+    border-radius: 10%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+    width: fit-content;
+    position: absolute;
+    padding: 2rem 3rem;
+    left: 150px;
+    top: 40px;
+    text-align: center;
+    font-size: x-large;
+    color: #103e20;
+}
+.startScreen{
+    background: rgb(134, 115, 17);
+    padding: 2rem 0 2rem 10rem;
+    width: 40vw;
+    cursor: pointer;
+    top:30%;
+    left:14%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 10rem 0 0 33rem;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+}
+.restartScreen{
+    top:40%;
+    left:14%;    
+    text-align: center;
+    padding: 4rem 10.5rem;
+    width:fit-content;
+    font-size: x-large;
+}
+.tip{
+    padding: .2rem .5rem;
+    font-weight: bold; 
+}
+.hide{
+    display: none;
+}
+.road{
+    height: 100vh;
+    width: 24rem;
+    position: relative;
+    background-color: rgb(75, 72, 71);
+    margin-left: 544px;
+    overflow: hidden;
+    border-left:8px dashed white;
+    border-right:8px dashed white;
+    /* Krypto Etox */
+}
+.carProp, .ecarProp{
+    padding: 1.5rem;
+    background-image: url(image/car.png);
+    background-size: 100% 100%;
+    background-color: aqua;
+    width: 10px;
+    height: 100px;
+    border-radius: 15px;
+    position: absolute;
+    left: 260px;
+    top: 630px;
+    /* Krypto etox */
+}
+.laneProp{
+    background-color: white;
+    height: 5rem;
+    width: 12px;
+    position: absolute;
+    left: 199px;
+}
